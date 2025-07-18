@@ -17,16 +17,16 @@ An interactive detective game built with Python and Streamlit. Solve mysteries, 
    cd detective-game
    ```
 
-2. Create and activate a virtual environment (recommended):
+2. Create and activate a virtual environment using uv install if uv not present (recommended):
    ```bash
-   python -m venv venv
+   uv venv
    .\venv\Scripts\activate  # On Windows
    source venv/bin/activate  # On macOS/Linux
    ```
 
 3. Install the required packages:
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
    ```
 
 ## 🎮 How to Play
